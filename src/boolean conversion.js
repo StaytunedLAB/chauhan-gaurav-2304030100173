@@ -1,3 +1,4 @@
+day 1
 alert( Boolean(1) ); // true
 alert( Boolean(0) ); // false
 
