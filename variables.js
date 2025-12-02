@@ -1,4 +1,4 @@
-et hello = 'Hello world!';
+let hello = 'Hello world!';
 
 let message;
 
@@ -6,5 +6,5 @@ let message;
 message = hello;
 
 // now two variables hold the same data
-alert(hello); // Hello world!
-alert(message); // Hello world!
+console.log(hello); // Hello world!
+console.log(message); // Hello world!

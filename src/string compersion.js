@@ -1,4 +1,4 @@
 // day 1
-alert( 'Z' > 'A' ); // true
-alert( 'Glow' > 'Glee' ); // true
-alert( 'Bee' > 'Be' ); // true
+console.log( 'Z' > 'A' ); // true
+console.log( 'Glow' > 'Glee' ); // true
+console.log( 'Bee' > 'Be' ); // true

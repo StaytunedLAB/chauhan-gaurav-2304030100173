@@ -1,7 +1,7 @@
 // day 1
 let str = "123";
-alert(typeof str); // string
+console.log(typeof str); // string
 
 let num = Number(str); // becomes a number 123
 
-alert(typeof num); // number
+console.log(typeof num); // number

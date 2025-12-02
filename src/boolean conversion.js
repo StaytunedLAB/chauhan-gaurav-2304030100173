@@ -1,6 +1,6 @@
 //day 1
-alert( Boolean(1) ); // true
-alert( Boolean(0) ); // false
+console.log( Boolean(1) ); // true
+console.log( Boolean(0) ); // false
 
-alert( Boolean("hello") ); // true
-alert( Boolean("") ); // false
+console.log( Boolean("hello") ); // true
+console.log( Boolean("") ); // false
