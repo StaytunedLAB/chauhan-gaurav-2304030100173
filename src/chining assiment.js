@@ -1,8 +1,8 @@
-dat 1
-let a, b, c;
+// dat 1
+ a, b, c;
 
 a = b = c = 2 + 2;
 
-alert( a ); // 4
-alert( b ); // 4
-alert( c ); // 4
+console.log( a ); // 4
+console.log( b ); // 4
+console.log( c ) // 4
