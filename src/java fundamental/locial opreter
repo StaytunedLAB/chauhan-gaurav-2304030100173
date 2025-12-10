@@ -1,0 +1,24 @@
+// addition
+
+let a(4+5)
+console.log(a);
+
+// subtraction
+
+let b(10-2)
+console.log(b);
+
+// multiplication
+
+let c(4*2)
+console.log(c);
+
+// division
+
+let d(20/4)
+console.log(d);
+ 
+// modulus
+let e(10%3)
+
+console.log(e);

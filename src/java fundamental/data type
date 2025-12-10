@@ -1,0 +1,17 @@
+//number
+let n = 123;
+n = 12.345;
+
+//string
+let name = "John";
+
+// embed a variable
+console.log( `Hello, ${name}!` ); // Hello, John!
+
+// embed an expression
+console.log( `the result is ${1 + 2}` );
+
+//boolean
+let isGreater = 4 > 1;
+
+console.log( isGreater );
