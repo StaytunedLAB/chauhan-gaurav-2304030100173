@@ -1,0 +1,22 @@
+let fruits = ["Apple", "Banana", "Mango"];
+console.log(fruits[0]); // Apple
+console.log(fruits[2]); // Mango
+
+//array loop
+
+let arr = ["Apple", "Orange", "Pear"];
+
+for (let key in arr) {
+  console.log( arr[key] ); // Apple, Orange, Pear
+}
+
+//array removing methods
+
+let arr = ["I", "go", "home"];
+
+delete arr[1]; // remove "go"
+
+console.log( arr[1] ); // undefined
+
+// now arr = ["I",  , "home"];
+console.log( arr.length ); 

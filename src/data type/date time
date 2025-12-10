@@ -1,0 +1,7 @@
+let today = new Date();
+
+today.setHours(0);
+console.log(today); 
+
+today.setHours(0, 0, 0, 0);
+console.log(today); 

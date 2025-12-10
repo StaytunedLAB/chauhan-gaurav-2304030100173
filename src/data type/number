@@ -1,2 +1,2 @@
-let i = 500;
+let i = [5,4,2,3,1];
 console.log(i);
