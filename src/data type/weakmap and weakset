@@ -1,0 +1,14 @@
+let john = { name: "John" };
+
+let map = new Map();
+map.set(john, "...");
+
+john = null; // overwrite the reference
+
+//weak set
+let john = { name: "John" };
+
+let weakMap = new WeakMap();
+weakMap.set(john, "...");
+
+john = null; // overwrite the reference
