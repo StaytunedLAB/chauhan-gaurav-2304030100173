@@ -1,0 +1,14 @@
+function sum(a, b) {
+  return a + b;
+}
+
+console.log( sum(1, 2, 3, 4, 5) );
+
+//spread syntax
+
+let arr = [3, 5, 1];
+let arr2 = [8, 9, 15];
+
+let merged = [0, ...arr, 2, ...arr2];
+
+console.log(merged);   

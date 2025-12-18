@@ -1,0 +1,24 @@
+//nested
+let delay = 5000;
+
+let timerId = setTimeout(function request() {
+  ...send request...
+
+  if (request failed due to server overload) {
+    
+    delay *= 2;
+  }
+
+  timerId = setTimeout(request, delay);
+
+}, delay)
+
+//set time out
+function sayHi() {
+  console.log
+}
+
+setTimeout(sayHi, 1000);
+
+//set interval
+let timerId = setInterval(sayHi, 1000);

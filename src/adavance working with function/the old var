@@ -1,0 +1,10 @@
+function sayHi() {
+  if (true) {
+    var phrase = "Hello";
+  }
+
+  alert(phrase); // works
+}
+
+sayHi();
+console.log(phrase);
