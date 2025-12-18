@@ -1,0 +1,10 @@
+let start = Date.now(); 
+
+// do the job
+for (let i = 0; i < 100000; i++) {
+  let doSomething = i * i * i;
+}
+
+let end = Date.now(); 
+
+console.log( `The loop took ${end - start} ms` );

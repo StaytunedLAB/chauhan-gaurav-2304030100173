@@ -1,0 +1,33 @@
+let map = new Map();
+
+map.set('1', 'str1');   
+map.set(1, 'num1');     
+map.set(true, 'bool1'); 
+
+// Map keeps the type, so these two are different:
+console.log( map.get(1)   );
+console.log( map.get('1') ); 
+
+console.log( map.size ); 
+
+//map
+
+let recipeMap = new Map([
+  ['cucumber', 500],
+  ['tomatoes', 350],
+  ['onion',    50]
+]);
+
+
+for (let vegetable of recipeMap.keys()) {
+  console.log(vegetable);
+}
+
+
+for (let amount of recipeMap.values()) {
+  console.log(amount); 
+}
+
+
+for (let entry of recipeMap) 
+  console.log(entry); 

@@ -1,8 +1,8 @@
-import fetch from "node-fetch";
 
-const GITHUB_TOKEN = "YOUR_GITHUB_TOKEN"; // <-- replace
-const OWNER = "YOUR_GITHUB_USERNAME";
-const REPO = "YOUR_REPOSITORY_NAME";
+
+const GITHUB_TOKEN = process.env.GITHUB_TOKEN; // <-- replace
+const OWNER = "chauhangauravsinh311-cell";
+const REPO = "chauhan-gaurav-2304030100173";
 
 async function createIssue() {
   const url = `https://api.github.com/repos/${OWNER}/${REPO}/issues`;

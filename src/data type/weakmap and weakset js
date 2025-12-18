@@ -1,0 +1,27 @@
+et john = { name: "John" };
+
+let weakMap = new WeakMap();
+weakMap.set(john, "...");
+
+john = null; 
+
+//weakset
+
+
+let visitedSet = new WeakSet();
+
+let john = { name: "John" };
+let pete = { name: "Pete" };
+let mary = { name: "Mary" };
+
+visitedSet.add(john);
+visitedSet.add(pete); 
+visitedSet.add(john); 
+
+
+console.log(visitedSet.has(john));
+
+console.log(visitedSet.has(mary)); 
+
+john = null;
+
