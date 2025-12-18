@@ -1,0 +1,31 @@
+let user = {
+  name: "John"
+};
+
+let descriptor = Object.getOwnPropertyDescriptor(user, 'name');
+
+console.log( JSON.stringify(descriptor, null, 2 ) );
+ //non writeble
+ let user = {
+  name: "John"
+};
+
+Object.defineProperty(user, "name", {
+  writable: false
+});
+
+user.name = "Pete";
+//non enumereble
+let user = {
+  name: "John",
+  toString() {
+    return this.name;
+  }
+};
+
+
+for (let key in user) console.log(key);
+//non configurable
+let descriptor = Object.getOwnPropertyDescriptor(Math, 'PI');
+
+console.log( JSON.stringify(descriptor, null, 2 ) );
